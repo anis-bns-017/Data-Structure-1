@@ -11,7 +11,7 @@ int main()
     cout<< "Enter "<< array_size<< " element with space :";
     for(int i=0; i<array_size; i++)
         cin>>arr[i];
-    for(int i = 0; i<array_size; i++)
+    for(int i = 1; i<array_size; i++)
     {
         for(int j=i;j>0;j--)
         {
@@ -25,4 +25,3 @@ int main()
     cout<<endl;
     return 0;
 }
-
